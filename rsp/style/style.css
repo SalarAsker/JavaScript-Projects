@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Bubblegum Sans';
+}
+.rsp-wrapper{
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgb(205,124,124);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title h1{
+    font-size: 4em;
+    color: white;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.user-info p{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.image-container{
+   width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+}
+.image-container img{
+    border-radius: 25px;
+}
+.stats{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-evenly;
+}
+.result p{
+    font-size: 2em;
+}
+.riset button{
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    padding: 10px;
+    border: 0;
+}
+
