@@ -1,0 +1,22 @@
+main{
+    width: 670px;
+    border: 3px solid blue;
+    padding: 0 2em 1em;
+    margin: 0 auto;
+}
+h1{
+    color: blue;
+    margin-bottom: 0.5em;
+}
+span{
+    color: red;
+}
+label{
+    width: 11em;
+    float: left;
+    text-align: right;
+}
+input{
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+}

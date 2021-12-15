@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">	
+    <title>Join Email List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Please Join SmartCode Email List</h1>
+        <form action="join.html" method="get" id="email_form">
+            <div class="email">
+                <label for="email_address1">Email Address:</label>
+                <input type="text" name="email_address1" id="email_address1">
+                <span id="email_address1_error">*</span>
+            </div>
+            <div class="re-enter_email">
+                <label for="email_address2">Re-enter Email Address:</label>
+                <input type="text" name="email_address2" id="email_address2">
+                <span id="email_address2_error">*</span>
+            </div>
+            <div class="name">
+               <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+                <span id="name_error">*</span>
+            </div>
+            <input type="submit" value="Join Our Email List" id="email_list">
+            
+
+        </form>
+    </main>
+    <!-- <script src="app.js" ></script> -->
+</body>
+</html>
