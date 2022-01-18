@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Working with radio buttons --> Weight converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+   <div class="app">
+       <h1>Weight Converter</h1>
+       <div class="input">
+           <label for="weight_kg">Enter weight in kg</label>
+           <input type="text" name="weight" id="weight_kg">
+       </div>
+       <div class="units">
+           <label for="pound">
+               <input type="radio" name="unit" id="weight_pound" value="pound" checked>
+               Pound
+           </label> <br>
+           <label for="ounce">
+            <input type="radio" name="unit" id="weight_ounce" value="ounce" >
+            Ounce
+        </label> <br>
+        <label for="gram">
+            <input type="radio" name="unit" id="weight_gram" value="gram">
+            Gram
+        </label> <br>
+        <div class="calc_btn">
+            <button id="calc">Calculate</button>
+            <p id="result"></p>
+        </div>
+
+       </div>
+   </div>
+    <script src="app.js"></script>
+
+</body>
+</html>

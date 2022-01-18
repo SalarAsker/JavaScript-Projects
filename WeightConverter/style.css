@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.app{
+    width: 500px;
+    background-color: rgb(144, 230, 132);
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 3em;
+}
+.input{
+    display: flex;
+    justify-content:center
+    /* align-items: center; */
+}
+
+label{
+    /* width: 11em; */
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+.units{
+    clear: both;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.units label{
+    font-size: 1.2em;
+}
+button{
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+.calc_btn{
+    text-align: center;
+}
+p{
+    font-size: 1.5em;
+}
