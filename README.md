@@ -8,4 +8,7 @@
   <li> Todo List </li>
   <li> Password Toggle using check-box </li>
   <li> Password Toggle using eye-icon </li>
+  <li> Counter </li>
+  <li> Guess the number game </li>
+  <li> HTML form validation </li>
 </ul>
