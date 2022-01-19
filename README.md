@@ -11,4 +11,5 @@
   <li> Counter </li>
   <li> Guess the number game </li>
   <li> HTML form validation </li>
+  <li> WeightConverter </li>
 </ul>
