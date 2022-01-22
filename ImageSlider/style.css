@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+.app_container{
+    width: 600px;
+    margin: 25px auto;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.prev, .next{
+    width: 100px;
+    height: 50px;
+    font-size: 1em;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(96,147,163);
+}
+.prev:hover, .next:hover{
+   background-color: blue;
+   color: white;
+}
+.info{
+    font-size: 2em;
+    font-weight: bold;
+}
