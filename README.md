@@ -4,7 +4,7 @@
 
 <h3>Projects</h3> 
 <ul>
-  <li> <a href="https://github.com/SalarAsker/JavaScript-Projects/tree/main/RockPaperScissor"> Rock Paper Scissor </a> <a href=""> (YouTube Tutorial) <a/> </li>
+  <li> <a href="https://github.com/SalarAsker/JavaScript-Projects/tree/main/RockPaperScissor"> Rock Paper Scissor </a> <span style="color="black""> <a href=""> (YouTube Tutorial) </a> </span> </li>
   <li> <a href="https://github.com/SalarAsker/JavaScript-Projects/tree/main/TodoList"> Todo List </a> <a href="">  (Youtube Tutorial) <a/></li>
   <li> <a href="https://github.com/SalarAsker/JavaScript-Projects/tree/main/TogglePasswordCheckbox"> Password Toggle using check-box </a> <a href=""> (YouTube Tutorial) <a/> </li>
   <li> <a href="https://github.com/SalarAsker/JavaScript-Projects/tree/main/TogglePasswordEyeIcon"> Password Toggle using eye-icon </a> <a href=""> (YouTube Tutorial) <a/></li>
