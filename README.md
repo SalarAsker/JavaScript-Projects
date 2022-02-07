@@ -4,12 +4,14 @@
 
 <h3>Projects</h3> 
 <ul>
-  <li> Rock Paper Scissor </li>
-  <li> Todo List </li>
-  <li> Password Toggle using check-box </li>
-  <li> Password Toggle using eye-icon </li>
-  <li> Counter </li>
-  <li> Guess the number game </li>
-  <li> HTML form validation </li>
-  <li> Weight Converter </li>
+  <li> <a href="https://github.com/SalarAsker/JavaScript-Projects/tree/main/RockPaperScissor"> Rock Paper Scissor </a> </li>
+  <li> <a href="https://github.com/SalarAsker/JavaScript-Projects/tree/main/TodoList"> Todo List </a> </li>
+  <li> <a href="https://github.com/SalarAsker/JavaScript-Projects/tree/main/TogglePasswordCheckbox"> Password Toggle using check-box </a> </li>
+  <li> <a href="https://github.com/SalarAsker/JavaScript-Projects/tree/main/TogglePasswordEyeIcon"> Password Toggle using eye-icon </a> </li>
+  <li> <a href="https://github.com/SalarAsker/JavaScript-Projects/tree/main/SimpleCounter"> Counter </a> </li>
+  <li> <a href="https://github.com/SalarAsker/JavaScript-Projects/tree/main/GuessTheNumber"> Guess the number game </a> </li>
+  <li> <a href="https://github.com/SalarAsker/JavaScript-Projects/tree/main/FormValidationJoinEmailList"> HTML form validation </a> </li>
+  <li> <a href="https://github.com/SalarAsker/JavaScript-Projects/tree/main/WeightConverter"> Weight Converter </a> </li>
+  <li> <a href="https://github.com/SalarAsker/JavaScript-Projects/tree/main/ImageSlider"> Image Slider With Prev And Next </a> </li>
+  <li> <a href="https://github.com/SalarAsker/JavaScript-Projects/tree/main/AutoImageSlider"> Automated Image Slider </a> </li>
 </ul>
