@@ -1,0 +1,19 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 600px;
+  margin: 0 auto;
+}
+h1{
+  font-size: 3em;
+  text-align: center;
+}
+.thumb-bar img{
+  width: 20%;
+  float: left;
+  border: 1px solid black;
+  cursor: pointer;
+}
