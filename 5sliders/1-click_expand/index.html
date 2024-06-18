@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sliding cards</title>
+</head>
+
+<body>
+
+    <div class="container flex-container">
+        <div class="slide image-1 bg-image active"> </div>
+        <div class="slide image-2 bg-image"> </div>
+        <div class="slide image-3 bg-image"> </div>
+        <div class="slide image-4 bg-image"> </div>
+        <div class="slide image-5 bg-image"> </div>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
+
+<!-- 
+    Flex = 0.5 means, you have flex-grow = 0.5, flex-shrink = 1 and flex-basis = 0 you are allocating
+     the available space to flex items.
+
+Let's just say, you have a container (Assuming div element) of width: 100vw with two 
+flexible items(div elements) of each 40vw in it. So the total width consumed 
+by your two div elements will be equals to 80vw and the left over available 
+space would be 20vw. Now, You have set the flex = 0.5 for each of the two div 
+elements. so, Each div element will grow up by 20vw/2 = 10vw in order to fully occupy 
+the free space of the container.
+
+ -->
+
+<!-- 
+    But! If we were to change the default of the flex-grow property from 0 to 1, 
+    like this… Then all the elements will take an equal portion of the 
+    .parent element, but only if the lengths of their contents are the same.
+
+     in the example above, the first two child elements will take up 
+     proportionally the same amount of space but that third element will try 
+     to grow up to three times the space as the others.
+
+      If we instead add flex: 2 to just one of the divs, then that div would 
+      grow to 2x the size of the others.
+
+      
+  -->

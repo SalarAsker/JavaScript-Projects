@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(173, 165, 165); */
+}
+.app-container{
+    width: 600px;
+    /* background-color: blue; */
+}
+
+
+.current-img-container{
+    background-color: yellow;
+    margin-bottom: 5px;
+   
+}
+
+.current-img-container img{
+   display: block;
+   width: 100%;
+  
+}
+.tab-container{
+    display: flex;
+    justify-content: space-between;
+}
+.tab{
+   width: 19%; 
+}
+.tab img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+}
+
+.tab img:hover{
+    opacity: 0.8;
+}   
